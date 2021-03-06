@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/dark_blue"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_white"
+            android:padding="5sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_market"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="price"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/Analogous"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="price"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/translucent_background"
+                android:textSize="14sp" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_difference"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left"-->
+                <!--android:text="price"-->
+                <!--android:singleLine="true"-->
+                <!--android:ellipsize="end"-->
+                <!--android:textColor="@color/dark_blue"-->
+                <!--android:textSize="@dimen/small_text" />-->
+
+            <TextView
+                android:id="@+id/tv_last_volume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="price"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/translucent_background"
+                android:textSize="@dimen/mid_text" />
+
+            <TextView
+                android:id="@+id/tv_last_raid_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="price"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/translucent_background"
+                android:textSize="@dimen/mid_text" />
+
+            <TextView
+                android:id="@+id/tv_volume24hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="price"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/translucent_background"
+                android:textSize="@dimen/mid_text" />
+
+            <TextView
+                android:id="@+id/tv_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="price"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/translucent_background"
+                android:textSize="@dimen/mid_text" />
+
+            <TextView
+                android:id="@+id/tv_high"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="price"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/translucent_background"
+                android:textSize="@dimen/mid_text" />
+
+
+            <TextView
+                android:id="@+id/tv_low"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="price"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/translucent_background"
+                android:textSize="@dimen/mid_text" />
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400sp"
+    android:background="@color/light_white"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_rate"
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10sp"
+            android:textColor="@color/dark_blue"
+            android:background="@drawable/rounded_corner"
+            android:textSize="@dimen/mid_big_text_size"
+            android:layout_marginBottom="80sp"
+            android:text="Search by rating"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50sp"
+            android:orientation="vertical"
+            android:gravity="left">
+
+            <TextView
+                android:id="@+id/tv_rate5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/mid_big_text_size"
+                android:background="@drawable/roundshape1"
+                android:paddingHorizontal="150sp"
+                android:layout_marginBottom="10sp"
+                android:text="5"/>
+
+            <TextView
+                android:id="@+id/tv_rate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/mid_big_text_size"
+                android:background="@drawable/roundshape1"
+                android:paddingHorizontal="120sp"
+                android:layout_marginBottom="10sp"
+                android:text="4+"/>
+
+            <TextView
+                android:id="@+id/tv_rate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/mid_big_text_size"
+                android:background="@drawable/roundshape1"
+                android:paddingHorizontal="90sp"
+                android:layout_marginBottom="10sp"
+                android:text="3+"/>
+
+            <TextView
+                android:id="@+id/tv_rate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/mid_big_text_size"
+                android:background="@drawable/roundshape1"
+                android:paddingHorizontal="60sp"
+                android:layout_marginBottom="10sp"
+                android:text="2+"/>
+
+            <TextView
+                android:id="@+id/tv_rate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/mid_big_text_size"
+                android:background="@drawable/roundshape1"
+                android:paddingHorizontal="30sp"
+                android:layout_marginBottom="10sp"
+                android:text="1+"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/tv_search"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundshape_dark"
+                android:text="Search"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textSize="@dimen/mid_text"
+                android:textColor="@color/light_white"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundshape_dark"
+                android:layout_marginLeft="10sp"
+                android:text="Clear"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textSize="@dimen/mid_text"
+                android:textColor="@color/light_white"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundshape_dark"
+                android:layout_marginLeft="10sp"
+                android:text="Cancel"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textSize="@dimen/mid_text"
+                android:textColor="@color/light_white"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

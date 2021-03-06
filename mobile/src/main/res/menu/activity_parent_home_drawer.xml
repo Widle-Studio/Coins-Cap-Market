@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_exchange"
+            android:title="Exchange Platform" />
+        <item
+            android:id="@+id/nav_toplist"
+            android:title="Top List" />
+        <item
+            android:id="@+id/nav_icolist"
+            android:title="ICO List" />
+        <item
+            android:id="@+id/nav_pricealert"
+            android:title="Alert" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Setting" />
+    </group>
+
+</menu>

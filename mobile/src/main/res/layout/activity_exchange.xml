@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exchange_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.1sp"
+        android:background="@color/dark_blue">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue"
+            app:theme="@style/ToolbarColoredmenu" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:padding="10sp"
+            android:src="@mipmap/ic_back"/>
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10sp"
+            android:text="Exchange Platform"
+            android:textColor="@color/light_white"
+            android:textSize="25sp" />
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/iv_profilepic"-->
+            <!--android:layout_width="40sp"-->
+            <!--android:layout_height="40sp"-->
+            <!--android:layout_gravity="right|center"-->
+            <!--android:layout_marginRight="10sp"-->
+            <!--android:src="@mipmap/ic_pro" />-->
+    </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3sp"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4">
+
+            <TextView
+                android:id="@+id/tv_popup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:gravity="center"
+                android:textColor="@color/light_white"
+                android:drawableRight="@mipmap/down1"
+                android:background="@drawable/rounded_corner_dark"
+                android:text="All" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2sp"
+            android:layout_weight="1.1">
+
+            <TextView
+                android:id="@+id/tv_popup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:gravity="center"
+                android:textColor="@color/light_white"
+                android:drawableRight="@mipmap/down1"
+                android:background="@drawable/rounded_corner_dark"
+                android:text="BTC" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2sp"
+            android:layout_weight="0.8">
+
+            <TextView
+                android:id="@+id/tv_popup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:gravity="center"
+                android:textColor="@color/light_white"
+                android:drawableRight="@mipmap/down1"
+                android:background="@drawable/rounded_corner_dark"
+                android:text="USD" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2sp"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:gravity="center"
+                android:textColor="@color/light_white"
+                android:background="@drawable/rounded_corner_dark"
+                android:text="Clear" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

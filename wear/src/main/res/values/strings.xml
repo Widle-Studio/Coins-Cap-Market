@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Coin Cap</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <string name="ok">OK</string>
+    <string name="err_lodingdata">Problem in loading data</string>
+    <string name="err_no_internet">No internet connection</string>
+
+
+    <string name="bitcoin">Bitcoin</string>
+    <string name="ethereum">Ethereum</string>
+    <string name="bitcoincash">Bitcoin Cash</string>
+    <string name="ripple">Ripple</string>
+    <string name="litecoin">Litecoin</string>
+    <string name="cardano">Cardano</string>
+    <string name="iota">IOTA</string>
+    <string name="digitalcash">DigitalCash</string>
+    <string name="nem">NEM</string>
+    <string name="monero">Monero</string>
+    <string name="eoss">EOS</string>
+    <string name="bitcoingold">Bitcoin Gold</string>
+    <string name="qtumm">Qtum</string>
+    <string name="stellar">Stellar</string>
+    <string name="neoo">NEO</string>
+    <string name="ethereumclassic">EthereumClas.</string>
+    <string name="zcash">Zcash</string>
+    <string name="steemm">Steem</string>
+    <string name="zcoin">ZCoin</string>
+    <string name="storjj">Storj</string>
+    <string name="aionn">Aion</string>
+
+    <string name="huobi">Huobi Token</string>
+    <string name="tronix">Tronix</string>
+    <string name="nano">Nano</string>
+    <string name="omisego">OmiseGo</string>
+    <string name="elastos">Elastos</string>
+    <string name="binance">Binance Coin</string>
+    <string name="vechain">Vechain</string>
+    <string name="zclassic">ZClassic</string>
+    <string name="digix">Digix DAO</string>
+    <string name="odyssey">Odyssey</string>
+    <string name="blockmason">BlockMason Credit P.</string>
+    <string name="lunyr">Lunyr</string>
+    <string name="iostoken">IOS token</string>
+    <string name="hshare">Hshare</string>
+    <string name="iconproject">ICON Project</string>
+    <string name="lisk">Lisk</string>
+    <string name="nebilo">Neblio</string>
+    <string name="wavess">Waves</string>
+    <string name="bluzello">Bluzelle</string>
+    <string name="inkk">Ink</string>
+    <string name="adex">AdEx</string>
+    <string name="verge">Verge</string>
+    <string name="metal">Metal</string>
+    <string name="sirinlabs">SirinLabs</string>
+    <string name="ox">0x</string>
+    <string name="iex">iEx.ec</string>
+    <string name="thetaa">Theta</string>
+    <string name="bitcoindimand">Bitcoin Diamond</string>
+    <string name="openanx">OpenANX</string>
+    <string name="aelf">aelf</string>
+    <string name="insexosystem">INS Ecosystem</string>
+    <string name="zilliqa">Zilliqa</string>
+    <string name="aeternity">Aeternity</string>
+    <string name="propy">Propy</string>
+    <string name="dogecoin">Dogecoin</string>
+    <string name="iotchain">IoT Chain</string>
+    <string name="reddcoin">ReddCoin</string>
+    <string name="swftcoin">SwftCoin</string>
+    <string name="monaco">Monaco</string>
+    <string name="aeron">Aeron</string>
+    <string name="medicakchain">Medicalchain</string>
+    <string name="breadtoken">Bread token</string>
+    <string name="santiment">Santiment</string>
+    <string name="nebulas">Nebulas</string>
+    <string name="genesis">Genesis Vision</string>
+    <string name="qunqun">QunQun</string>
+    <string name="waltonchain">Waltonchain</string>
+    <string name="factoids">Factoids</string>
+    <string name="coinDash">CoinDash</string>
+    <string name="ripio">Ripio</string>
+
+
+    <string name="btc">BTC</string>
+    <string name="eth">ETH</string>
+    <string name="bch">BCH</string>
+    <string name="xrp">XRP</string>
+    <string name="ltc">LTC</string>
+    <string name="ada">ADA</string>
+    <string name="iot">IOT</string>
+    <string name="dash">DASH</string>
+    <string name="xem">XEM</string>
+    <string name="xmr">XMR</string>
+    <string name="eos">EOS</string>
+    <string name="btg">BTG</string>
+    <string name="qtum">QTUM</string>
+    <string name="xlm">XLM</string>
+    <string name="neo">NEO</string>
+    <string name="etc">ETC</string>
+    <string name="zec">ZEC</string>
+    <string name="steem">STEEM</string>
+    <string name="xzc">XZC</string>
+    <string name="storj">STORJ</string>
+    <string name="aion">AION</string>
+
+    <string name="ht">HT</string>
+    <string name="trx">TRX</string>
+    <string name="xrb">XRB</string>
+    <string name="omg">OMG</string>
+    <string name="ela">ELA</string>
+    <string name="bnb">BNB</string>
+    <string name="ven">VEN</string>
+    <string name="zcl">ZCL</string>
+    <string name="dgd">DGD</string>
+    <string name="ocn">OCN</string>
+    <string name="bcpt">BCPT</string>
+    <string name="lun">LUN</string>
+    <string name="iost">IOST</string>
+    <string name="hsr">HSR</string>
+    <string name="icx">ICX</string>
+    <string name="lsk">LSK</string>
+    <string name="nebl">NEBL</string>
+    <string name="waves">WAVES</string>
+    <string name="blz">BLZ</string>
+    <string name="ink">INK</string>
+    <string name="adx">ADX</string>
+    <string name="xvg">XVG</string>
+    <string name="mtl">MTL</string>
+    <string name="srn">SRN</string>
+    <string name="zrx">ZRX</string>
+    <string name="rlc">RLC</string>
+    <string name="theta">THETA</string>
+    <string name="bcd">BCD</string>
+    <string name="oax">OAX</string>
+    <string name="elf">ELF</string>
+    <string name="ins">INS</string>
+    <string name="zil">ZIL</string>
+    <string name="ae">AE</string>
+    <string name="pro">PRO</string>
+    <string name="doge">DOGE</string>
+    <string name="itc">ITC</string>
+    <string name="rdd">RDD</string>
+    <string name="swftc">SWFTC</string>
+    <string name="mco">MCO</string>
+    <string name="arn">ARN</string>
+    <string name="mtn">MTN*</string>
+    <string name="brd">BRD</string>
+    <string name="san">SAN</string>
+    <string name="nas">NAS</string>
+    <string name="gvt">GVT</string>
+    <string name="qun">QUN</string>
+    <string name="wtc">WTC</string>
+    <string name="fct">FCT</string>
+    <string name="cdt">CDT</string>
+    <string name="rcn">RCN</string>
+
+
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="title_activity_favourite_">Favourite_Activity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_podcast_">Podcast_Activity</string>
+    <string name="title_activity_podcast__part_">Podcast_Part_Activity</string>
+    <string name="title_activity_event_">Event_Activity</string>
+    <string name="title_activity_more_">More_Activity</string>
+    <string name="title_activity_top__list_">Top_List_Activity</string>
+    <string name="title_activity_ico_">ICO_Activity</string>
+    <string name="title_activity_ico1_">ICO1_Activity</string>
+    <string name="title_activity_exchange_">Exchange_Activity</string>
+
+
+</resources>

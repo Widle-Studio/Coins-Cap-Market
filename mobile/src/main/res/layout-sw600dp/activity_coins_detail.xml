@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.1sp"
+        android:padding="5sp"
+        android:background="@color/dark_blue">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:padding="10sp"
+            android:src="@drawable/ic_back" />
+
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:paddingLeft="30sp"
+            android:paddingRight="30sp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/light_white"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/iv_un_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="50sp"
+            android:padding="10sp"
+            android:src="@drawable/ic_un_fav" />
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:padding="10sp"
+            android:src="@drawable/share" />
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_below="@id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20sp">
+
+                <ImageView
+                    android:id="@+id/iv_symbol"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/btc" />
+
+                <TextView
+                    android:id="@+id/tv_symbol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="btc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large_text_size" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="sasasa"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/big_text_size" />
+
+                    <TextView
+                        android:id="@+id/tv_pct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="sasasas"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/mid_text_size" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.2sp"
+                android:background="@color/light_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_24_volume"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="24h volume"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/mid_text" />
+
+                    <TextView
+                        android:id="@+id/tv_24_volume"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="24h volume"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/medium_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_market_cap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Market cap:"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/mid_text" />
+
+                    <TextView
+                        android:id="@+id/tv_market_cap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="24h volume"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/medium_size" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.2sp"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20sp"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/tv_1day"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="1D"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:padding="4sp"
+                    android:layout_marginRight="5sp"
+                    android:background="@color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_1week"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="1W"
+                    android:gravity="center"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginLeft="5sp"
+                    android:padding="4sp"
+                    android:textSize="20sp"
+                    android:background="@color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_1mnt"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="1M"
+                    android:gravity="center"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginLeft="5sp"
+                    android:textSize="20sp"
+                    android:padding="4sp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:id="@+id/tv_1year"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="1Y"
+                    android:gravity="center"
+                    android:layout_marginLeft="5sp"
+                    android:textSize="20sp"
+                    android:padding="4sp"
+                    android:background="@color/white"/>
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/linechart"
+                    android:layout_width="match_parent"
+                    android:layout_height="350sp" />
+
+
+            </RelativeLayout>
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:padding="10sp"-->
+                <!--android:layout_marginTop="20sp"-->
+                <!--android:weightSum="2">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="0sp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/lbl_change_24h"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="Change 24h"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="@dimen/activity_vertical_margin" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_change_24h"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="24h voiume"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="@dimen/mid_big_text_size" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="0sp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/lbl_change_1d"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="change 1d"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="@dimen/activity_vertical_margin" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_change_1d"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="24h voiume"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="@dimen/mid_big_text_size" />-->
+
+                <!--</LinearLayout>-->
+
+
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.1sp"
+        android:background="@color/light_white"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+
+        <LinearLayout
+            android:id="@+id/ll_btc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.8">
+
+                <TextView
+                    android:id="@+id/tv_coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dsd"
+                    android:textColor="@color/org"
+                    android:textSize="@dimen/mid_big_text_size" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lbl_above"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date  : "
+                        android:textColor="@color/dark_blue"
+                        android:textSize="@dimen/mid_text" />
+
+                    <TextView
+                        android:id="@+id/tv_above"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:text="dsd"
+                        android:layout_weight="1.3"
+                        android:textColor="@color/light_blue"
+                        android:textSize="@dimen/mid_text" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lbl_below"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time : "
+                        android:textColor="@color/dark_blue"
+                        android:textSize="@dimen/mid_text" />
+
+                    <TextView
+                        android:id="@+id/tv_below"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:text="dsd"
+                        android:layout_weight="1.3"
+                        android:textColor="@color/light_blue"
+                        android:textSize="@dimen/mid_text" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--<LinearLayout-->
+                <!--android:layout_width="0sp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_weight="0.2">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/iv_delete"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:src="@mipmap/ic_delete"/>-->
+
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

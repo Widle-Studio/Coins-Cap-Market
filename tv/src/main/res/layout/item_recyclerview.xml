@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:padding="5sp"
+    android:background="@drawable/rl_shape_corner"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tv_item_tip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/tv_shape_corner"
+        android:gravity="left"
+        android:text="dsdsddsd"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:padding="10sp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+</FrameLayout>

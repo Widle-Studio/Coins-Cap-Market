@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_blockchain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blockchain"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:background="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/tv_cryptocurrency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cryptocurrency"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:background="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/tv_cryptomarkets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cryptomarkets"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:background="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/tv_altcoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Altcoin"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:background="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/tv_bitcoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bitcoin"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:background="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/tv_btc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BTC"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:background="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/tv_ethereum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ethereum"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:background="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/tv_litecoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Litecoin"
+                android:gravity="center"
+                android:padding="10sp"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

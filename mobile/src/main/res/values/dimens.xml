@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="mid_text">18sp</dimen>
+    <dimen name="mid_text_size">20sp</dimen>
+    <dimen name="mid_big_text_size">22sp</dimen>
+    <dimen name="medium_size">25sp</dimen>
+    <dimen name="big_text_size">30sp</dimen>
+    <dimen name="large_text_size">35sp</dimen>
+
+
+    <integer name="anim_duration_very_long">1500</integer>
+    <integer name="anim_duration_long">500</integer>
+    <integer name="anim_duration_medium">300</integer>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

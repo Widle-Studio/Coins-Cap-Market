@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="crypto">
+        <item>Blockchain</item>
+        <item>Cryptocurrency</item>
+        <item>Cryptomarkets</item>
+        <item>Altcoin</item>
+        <item>Bitcoin</item>
+        <item>BTC</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+    </string-array>
+
+    <string-array name="hot">
+        <item>Hot</item>
+        <item>New</item>
+        <item>Top</item>
+    </string-array>
+
+
+
+</resources>

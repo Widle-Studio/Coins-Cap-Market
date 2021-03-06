@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:paddingTop="15sp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_coin"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/btc"
+                android:layout_gravity="center"/>
+
+
+            <!--<ImageView-->
+            <!--android:layout_width="50sp"-->
+            <!--android:layout_height="50sp"-->
+            <!--android:src="@drawable/btc"-->
+            <!--android:layout_gravity="center"/>-->
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_un_fav"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:src="@mipmap/ic_fav" />-->
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_btc_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fdfddf"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/tv_btc_sf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="fdfdf"
+                android:gravity="center"
+                android:textColor="@color/light_white"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_btc_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dss"
+            android:textColor="@color/white"
+            android:textSize="@dimen/mid_text_size" />
+
+
+        <TextView
+            android:id="@+id/tv_btc_pct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dsds"
+            android:textColor="@color/light_white"
+            android:textSize="@dimen/small_text" />
+
+
+        <TextView
+            android:id="@+id/tv_btc_mc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dsd"
+            android:textColor="@color/light_white"
+            android:paddingBottom="10sp"
+            android:textSize="@dimen/small_text" />
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@drawable/line"
+            android:padding="10sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

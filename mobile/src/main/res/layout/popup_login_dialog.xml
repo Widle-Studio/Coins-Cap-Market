@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp">
+
+
+        <FrameLayout
+            android:id="@+id/FrameLayout2"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20sp"
+            android:paddingBottom="20sp"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content" >
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/google_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dd4b39"
+                android:drawableStart="@mipmap/icgoogle_plus_white_36dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="Sign up using Google"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:drawableLeft="@mipmap/icgoogle_plus_white_36dp" />
+
+
+            <Button
+                android:id="@+id/google_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dd4b39"
+                android:drawableStart="@mipmap/icgoogle_plus_white_36dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="Sign out"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:drawableLeft="@mipmap/icgoogle_plus_white_36dp" />
+
+
+        </FrameLayout>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/new_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10sp"
+                        android:src="@mipmap/ic_back" />
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30sp"
+                        android:gravity="center"
+                        android:text="Setting"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/medium_size"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_point_found"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_notification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="8sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginTop="20sp"
+                        android:background="@color/dark_blue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/mid_text_size"
+                        android:visibility="gone"
+                        android:text="Notification"/>
+
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="20sp"
+                        android:paddingBottom="20sp"
+                        android:layout_gravity="bottom"
+                        android:layout_height="wrap_content" >
+
+                        <com.google.android.gms.common.SignInButton
+                            android:id="@+id/sign_in_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/google_login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#dd4b39"
+                            android:drawableStart="@mipmap/icgoogle_plus_white_36dp"
+                            android:paddingEnd="20dp"
+                            android:paddingStart="20dp"
+                            android:text="Sign up using Google"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:drawableLeft="@mipmap/icgoogle_plus_white_36dp" />
+
+
+                        <Button
+                            android:id="@+id/google_logout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#dd4b39"
+                            android:drawableStart="@mipmap/icgoogle_plus_white_36dp"
+                            android:paddingEnd="20dp"
+                            android:paddingStart="20dp"
+                            android:text="Sign out"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:visibility="gone"
+                            android:drawableLeft="@mipmap/icgoogle_plus_white_36dp" />
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_version_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/dark_blue"
+                        android:layout_gravity="bottom"
+                        android:paddingBottom="10sp"
+                        android:textSize="@dimen/mid_text_size"
+                        android:text=""/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/new_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10sp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp">
+
+                    <TextView
+                        android:id="@+id/tv_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Setting"
+                        android:textColor="@color/light_white"
+                        android:textSize="@dimen/large_text_size" />
+
+                    <ImageView
+                        android:id="@+id/iv_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center"
+                        android:src="@drawable/ic_cancel" />
+
+                </FrameLayout>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginBottom="5sp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_notification"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:id="@+id/tv_notification"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="50sp"
+                            android:padding="2sp"
+                            android:text="Notification"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/mid_big_text_size" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <TextView
+                            android:id="@+id/tv_app_about"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="App About"
+                            android:textColor="@color/org"
+                            android:textSize="@dimen/medium_size" />
+
+                        <TextView
+                            android:id="@+id/tv_about"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="50sp"
+                            android:padding="2sp"
+                            android:text="About"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/mid_big_text_size" />
+
+                        <TextView
+                            android:id="@+id/tv_help"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="50sp"
+                            android:padding="2sp"
+                            android:text="Help"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/mid_big_text_size" />
+
+                        <TextView
+                            android:id="@+id/tv_rate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="50sp"
+                            android:padding="2sp"
+                            android:text="Rate us"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/mid_big_text_size" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginBottom="5sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <TextView
+                            android:id="@+id/tv_legal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Legal"
+                            android:textColor="@color/org"
+                            android:textSize="@dimen/medium_size" />
+
+                        <TextView
+                            android:id="@+id/tv_privacy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="50sp"
+                            android:padding="2sp"
+                            android:text="Privacy"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/mid_big_text_size" />
+
+                        <TextView
+                            android:id="@+id/tv_acknowledgement"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="50sp"
+                            android:padding="2sp"
+                            android:text="Acknowledgement"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/mid_big_text_size" />
+
+                        <TextView
+                            android:id="@+id/tv_terms"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="50sp"
+                            android:padding="2sp"
+                            android:text="Terms of Service"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/mid_big_text_size" />
+
+                        <TextView
+                            android:id="@+id/tv_cookie"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="50sp"
+                            android:padding="2sp"
+                            android:text="Cookie Policy"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/mid_big_text_size" />
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="80sp"
+                    android:padding="20sp"
+                    android:weightSum="5">
+
+                    <ImageView
+                        android:id="@+id/iv_in"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_in" />
+
+                    <ImageView
+                        android:id="@+id/iv_twitter"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_twitter" />
+
+                    <ImageView
+                        android:id="@+id/iv_fb"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_facebook" />
+
+                    <ImageView
+                        android:id="@+id/iv_gplus"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_gplus" />
+
+                    <ImageView
+                        android:id="@+id/iv_youtube"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_youtube" />
+
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom">
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/sign_in_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/google_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="#dd4b39"
+                        android:drawableLeft="@mipmap/icgoogle_plus_white_36dp"
+                        android:drawableStart="@mipmap/icgoogle_plus_white_36dp"
+                        android:text="Sign up using Google"
+                        android:textAllCaps="false"
+                        android:padding="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/google_logout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="#dd4b39"
+                        android:drawableLeft="@mipmap/icgoogle_plus_white_36dp"
+                        android:drawableStart="@mipmap/icgoogle_plus_white_36dp"
+                        android:padding="20sp"
+                        android:text="Sign out"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

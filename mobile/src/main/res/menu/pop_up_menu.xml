@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+
+    <item
+        android:id="@+id/help"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/acknowledgement"
+        android:title="Acknowledgement" />
+
+    <item
+        android:id="@+id/privacy"
+        android:title="Privacy" />
+
+    <item
+        android:id="@+id/terms"
+        android:title="Terms of Service" />
+
+    <item
+        android:id="@+id/cookie"
+        android:title="Cookie Policy" />
+
+    <item
+        android:id="@+id/rate"
+        android:title="Rate us" />
+
+    <item
+        android:id="@+id/setting"
+        android:title="Setting" />
+
+
+</menu>

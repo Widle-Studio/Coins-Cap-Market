@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "819178321621",
+    "firebase_url": "https://coins-cap-widle.firebaseio.com",
+    "project_id": "coins-cap-widle",
+    "storage_bucket": "coins-cap-widle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819178321621:android:7f3a17fd06042910",
+        "android_client_info": {
+          "package_name": "com.widle.coinscap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819178321621-vromtk1nndl9i6tc5sfret47ppru63uq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.widle.coinscap",
+            "certificate_hash": "5b89eeb0488c14812f5b1c773a35974b27535db5"
+          }
+        },
+        {
+          "client_id": "819178321621-fodji1jgpg94tp93t545ojjkd9u25v2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpgnCmSpW-uPOFTQNJIowjW0R8AShrj44"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819178321621-fodji1jgpg94tp93t545ojjkd9u25v2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

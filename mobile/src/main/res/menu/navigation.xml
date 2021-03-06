@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/ic_coin"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@mipmap/ic_favourite"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_podcast"
+        android:enabled="true"
+        android:icon="@mipmap/ic_podcast"
+        android:title="@string/title_podcast" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:enabled="true"
+        android:icon="@mipmap/ic_news"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_event"
+        android:icon="@mipmap/ic_event"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title="@string/title_event" />
+
+</menu>

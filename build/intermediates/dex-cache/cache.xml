@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\28.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="445108ef35183b37885d5ca832eaff840c95d757">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\22.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="92d788b658c80b21f1c838b1003e0af6bd70a1c1">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\tvrecyclerview1\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bad4118538b04208304aa71dc84bd60b7b1ab0e3">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.7.1\796c0bf0a61141278c4bc32de2b92e6eb7fa8b1a\annotations-4.7.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="796c0bf0a61141278c4bc32de2b92e6eb7fa8b1a">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\exoplayer-dash-r2.5.2.aar\569a854e45e50ca48305362badaff2ae\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="646291c0aeb708a33a851e8afcf9a6d1fa0cef49">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\10.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e12eb404bca0631d9e7deaf16bfd5a6b0c701fe1">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\5.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ad39abb436e96e79b6de3c1db1323078f961df59">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\4.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14e12d019a751df7e5b5ec2750bfaadb943d023a">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2d8d4da3934680ffedc84430633a5b02\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\15.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="57f343d6bc540d891abdfa0b35d404927545ad29">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bff4d43b530fd3e9710418d3197dbce6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\12.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\1.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="46802286508b20b1427852408b171a0eeb7e498c">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\exoplayer-r2.5.2.aar\5122b9c34e1de6f7c8d5d95d07c06caa\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3ecb9d2aad9a03dd8d0914b715cc1fc11d942c6c">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bc99b041c39d5559d68766e71e03296a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\27.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cce1edf674299569566f6961bca5352bd512ea7">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\7.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="134c8a740054946dc38122b18e15fb4bd135d523">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\exoplayer-smoothstreaming-r2.5.2.aar\1bd6cc7bb928ffcc90669b08e229cd1b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2bf08e690b0b1101131099542db44488cd1d5170">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\6.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fae65b3c5d1dacaeb10a468fa825d377abfeae83">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.2.4\7abd1ecef320da6a7679b137083151401fe8bf43\MPAndroidChart-v2.2.4.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7abd1ecef320da6a7679b137083151401fe8bf43">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\035c4d49f730181062bd868c7071fe5f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\17.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1eb52ab39a98c946ac6939b258f07962a4ce1b3">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5309ea27b43185f1c09d2220a4caa496\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\exoplayer-hls-r2.5.2.aar\eb86e1817c72e8cb88059892e71bdcdf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fa2da36670cb89e63033b551822f74165aae0702">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\9.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8ed3f30b41a52d74284b720c5a0df053d690e480">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\29.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aad1abcaf53411a19b3c538656771ab3797106a1">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\2.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a8e02aadc2871e11e749ba0589c9a1f022b49677">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\6bfa863ef1139858be30e68948d6292b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\11.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ee8d12fa0a5fc4f06bc36976471fac799087053">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\16.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fd38dc847e02397aa274b0a3edd2dd6b32e6cfdf">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\exoplayer-core-r2.5.2.aar\17e1fc77449eb80ac8174ff1a375cec2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0261a90a88c693d60d7d765d7133fef6ec712c1f">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\8.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea098188d497ca4b7dcc118e192c2b0711d3915b">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\exoplayer-ui-r2.5.2.aar\c74d5f4f230e493e1de6e3b468d4a873\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1bcd19348c4d1effb80fa6d5e2ce44da254b6e8">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\13.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4aca07c749afa56a68ccf05e83570f464bbc10b4">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\20.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ac7bb8c5b8308671b34328fe141e7b3973d8d">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\3.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4beaa5fe4991308254243a4cb5646081079c20dd">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\e9dae00ba6bf65a76b7ce47311c3977b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\31.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="646a3ccb19c4c4a65234e723024eb156d8c95cc3">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.8.0\9bada650e1afe9c6174ddc0d113c1fce4dc26fe0\glide-3.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\14.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="de7ff60276d4aa09b9e4dceb72e45634acd9ab26">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\11ff07dd8b201dbbe346f962eea77ce0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e5e39cc319906b04266bee7d029f8201\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\226fb70fe649f785453fdfbd6d43d962\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="05bb648f6efbf447d5cc32d1535e662a9dc5d45d">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\ebef0bd9802e9f95cfe06494d5b24549\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\18.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8894eaf3ad90c58cc8a1b32f447656194d559453">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\imperial-web\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\ba076d1df5d3eb21b0eff85268c5f0ef\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\tv\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\desugar\release\21.jar"
+        jumboMode="false"
+        min-sdk-version="25"
+        optimize="true"
+        revision="26.0.2"
+        sha1="581f740328e8f80438d9af31a2abee6e64437508">
+        <dex dex="D:\AndroidStudioProjects\New_Coins_Caps\wear\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+
+</items>

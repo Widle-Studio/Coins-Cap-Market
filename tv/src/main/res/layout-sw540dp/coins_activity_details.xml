@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context="com.widle.coinscap.Home1_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="0.4">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+
+                        android:paddingLeft="20sp">
+                    <ImageView
+                        android:layout_width="50sp"
+                        android:layout_height="50sp"
+                        android:id="@+id/img_d"/>
+                    </LinearLayout>
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/fl_main_layout_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="3sp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:layout_gravity="center|top">
+
+                              <LinearLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/tv_name_d"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/light_blue"
+                                    android:text="gdgfg"
+                                    android:textSize="18sp"/>
+                                <TextView
+                                    android:id="@+id/tv_name_symbol_D"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/light_blue"
+                                    android:text="gdgfg"
+                                    android:layout_marginLeft="5dp"
+                                    android:textSize="18sp"/>
+                              </LinearLayout>
+
+
+                                <TextView
+                                    android:id="@+id/tv_price_d"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="22sp"
+                                    android:text="gdgfg"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                   android:orientation="horizontal"
+                                    android:gravity="left">
+
+                                    <TextView
+                                        android:id="@+id/tv_mc_d"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left"
+                                        android:textSize="@dimen/mid_text"
+
+                                        android:paddingRight="20sp"
+                                        android:text="gdgfg"/>
+
+                                    <TextView
+                                        android:id="@+id/tv_pct_d"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="right"
+                                        android:textSize="@dimen/mid_text"
+
+                                        android:text="gdgfg"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </FrameLayout>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/default_background"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+           android:layout_weight="1.6"
+            android:layout_marginTop="10sp"
+            android:layout_height="0sp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:weightSum="2"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/tv_day"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1 Day"
+                                android:gravity="center"
+                                android:textSize="@dimen/mid_text"
+                                android:textColor="@color/light_white"/>
+
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/linechart"
+                                android:layout_width="match_parent"
+                                android:paddingLeft="20sp"
+                                android:paddingRight="20sp"
+                                android:layout_height="250sp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="1sp"
+                        android:layout_height="match_parent"
+                        android:background="@color/default_background"/>
+
+                    <LinearLayout
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/tv_week"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1 Week"
+                                android:gravity="center"
+                                android:textSize="@dimen/mid_text"
+                                android:textColor="@color/light_white"/>
+
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/linechart1"
+                                android:paddingLeft="20sp"
+                                android:paddingRight="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="250sp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/default_background"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:weightSum="2"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/tv_month"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1 Month"
+                                android:gravity="center"
+                                android:textSize="@dimen/mid_text"
+                                android:textColor="@color/light_white"/>
+
+
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/linechart3"
+                                android:paddingLeft="20sp"
+                                android:paddingRight="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="250sp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="1sp"
+                        android:layout_height="match_parent"
+                        android:background="@color/default_background"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/tv_year"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1 Year"
+                                android:gravity="center"
+                                android:textSize="@dimen/mid_text"
+                                android:textColor="@color/light_white"/>
+
+
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/linechart4"
+                                android:paddingLeft="20sp"
+                                android:paddingRight="20sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="250sp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/new_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10sp"
+                        android:src="@drawable/ic_back" />
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30sp"
+                        android:gravity="center"
+                        android:text="Notification"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/big_text_size"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_point_found"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10sp"
+            android:background="@color/dark_blue"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp">
+                    <TextView
+                        android:id="@+id/tv_notification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textSize="@dimen/big_text_size"
+                        android:textColor="@color/org"
+                        android:text="Notification"/>
+
+
+                    <RadioGroup
+                        android:layout_margin="@dimen/activity_horizontal_margin"
+                        android:id="@+id/radioGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/rb_hourly"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hourly"
+                            android:layout_marginBottom="20sp"
+                            android:textSize="@dimen/mid_big_text_size"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_daily"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Daily"
+                            android:textSize="@dimen/mid_big_text_size"/>
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp">
+                    <TextView
+                        android:id="@+id/tv_podcast"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textSize="@dimen/big_text_size"
+                        android:textColor="@color/org"
+                        android:text="Podcast"/>
+
+
+                    <RadioGroup
+                        android:layout_margin="@dimen/activity_horizontal_margin"
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/rb1_hourly"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hourly"
+                            android:layout_marginBottom="20sp"
+                            android:textSize="@dimen/mid_big_text_size"/>
+
+                        <RadioButton
+                            android:id="@+id/rb1_daily"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Daily"
+                            android:layout_marginBottom="20sp"
+                            android:textSize="@dimen/mid_big_text_size"/>
+
+                        <RadioButton
+                            android:id="@+id/rb1_weekly"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Weekly"
+                            android:textSize="@dimen/mid_big_text_size"/>
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_notification_news"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="8sp"-->
+            <!--android:layout_marginLeft="10sp"-->
+            <!--android:layout_marginRight="10sp"-->
+            <!--android:layout_marginTop="20sp"-->
+            <!--android:background="@color/dark_blue"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/mid_text_size"-->
+            <!--android:text="News"/>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_notification_podcast"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="8sp"-->
+            <!--android:layout_marginLeft="10sp"-->
+            <!--android:layout_marginRight="10sp"-->
+            <!--android:layout_marginTop="20sp"-->
+            <!--android:background="@color/dark_blue"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/mid_text_size"-->
+            <!--android:text="Podcast"/>-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
