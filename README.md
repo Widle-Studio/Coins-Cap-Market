@@ -14,7 +14,7 @@
 ### Screen Short's
 - <a href="https://github.com/Widle-Studio/Coins-Cap-Market/tree/main/screenshort's/Mobile/">Mobile</a>
 - <a href="https://github.com/Widle-Studio/Coins-Cap-Market/tree/main/screenshort's/Tablet/">Tablet</a>
-- <a href="https://github.com/Widle-Studio/Coins-Cap-Market/screenshort's/Wear/">WearOS</a>
+- <a href="https://github.com/Widle-Studio/Coins-Cap-Market/tree/main/screenshort's/Wear/">WearOS</a>
 - <a href="https://github.com/Widle-Studio/Coins-Cap-Market/tree/main/screenshort's/TV/">Android TV</a>
 
 
